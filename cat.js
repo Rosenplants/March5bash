@@ -8,9 +8,9 @@ function cat(file) {
       throw err;
     } else {
       process.stdout.write(data);
+      process.stdout.write('\nprompt > ');
     }
   });
-  process.stdout.write('\nprompt > ');
 }
 
 module.exports = cat;
