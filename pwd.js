@@ -1,7 +1,6 @@
 /* eslint-disable func-names */
-const pwdCommand = function () {
-  console.log(process.cwd());
-  process.stdout.write('\nprompt > ');
+const pwdCommand = function (done) {
+  done(process.cwd());
 };
 
 module.exports = pwdCommand;
