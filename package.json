@@ -1,0 +1,22 @@
+{
+  "name": "shell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bash.js",
+  "scripts": {
+    "test": "erg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemkey/March5bash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemkey/March5bash/issues"
+  },
+  "homepage": "https://github.com/lemkey/March5bash#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
